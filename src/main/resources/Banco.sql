@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS Banco;
+
+USE Banco;
+
+CREATE TABLE IF NOT EXISTS Cliente (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    numeroConta INT,
+    saldo DOUBLE
+);

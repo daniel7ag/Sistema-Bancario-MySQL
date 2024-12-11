@@ -1,0 +1,4 @@
+dao\ContaBancariaDAO.class
+controller\AplicacaoBancaria.class
+utils\ConexaoDB.class
+model\ContaBancaria.class
