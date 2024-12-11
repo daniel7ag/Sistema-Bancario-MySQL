@@ -11,27 +11,6 @@ Este projeto simula uma aplicação bancária utilizando **Java**, **JDBC** e um
 - **Sacar**: Permite retirar um valor de uma conta, desde que haja saldo suficiente.
 - **Transferir**: Realiza uma transferência de valores entre duas contas bancárias.
 
-## Estrutura do Projeto
-
-O projeto foi estruturado da seguinte forma:
-
-```bash
-├── src
-│   ├── controller
-│   │   └── AplicacaoBancaria.java       # Classe principal com menu e interações
-│   ├── dao
-│   │   └── ContaBancariaDAO.java        # Classe de acesso ao banco de dados (CRUD)
-│   ├── model
-│   │   └── ContaBancaria.java           # Modelo de dados da conta bancária
-│   └── utils
-│       └── ConexaoDB.java               # Classe de conexão com o banco de dados
-├── lib
-│   └── mysql-connector-java-8.0.33.jar  # Conector JDBC para MySQL
-├── Banco.sql                           # Script SQL para criação do banco de dados e tabelas
-└── pom.xml                             # Arquivo de configuração do Maven (caso esteja usando Maven)
-
-```
-
 ## Requisitos
 
 - **Java** 8 ou superior
